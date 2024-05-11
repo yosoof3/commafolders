@@ -5,6 +5,7 @@
     ./utility
     ./mime.nix
     ./nix.nix
+    ./packages.nix
   ];
 
   programs.nix-index-database.comma.enable = true;
