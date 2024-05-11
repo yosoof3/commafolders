@@ -3,7 +3,7 @@ builtins.concatLists (builtins.attrValues {
   markdown = with extensions; [
     bierner.markdown-emoji
     bpruitt-goddard.mermaid-markdown-syntax-highlighting
-    davidanson.vscode-markdownlint
+    bierner.github-markdown-preview
     mushan.vscode-paste-image
     unifiedjs.vscode-mdx
     yzhang.markdown-all-in-one
