@@ -2,5 +2,5 @@
 
 [
   "${lib.getExe pkgs.wl-clip-persist} --clipboard both"
-  "${lib.getExe pkgs.swww} init && ${lib.getExe pkgs.swww} img ${./wallpapers/leafs2.png}"
+  "${lib.getExe pkgs.swww} init && ${lib.getExe pkgs.swww} img ${./wallpapers/leafs.png}"
 ]
