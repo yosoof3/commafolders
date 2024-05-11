@@ -20,6 +20,7 @@
         credentialStore = "plaintext";
         helper = "${pkgs.git-credential-manager}/bin/git-credential-manager";
       };
+      http.postBuffer = 524288000;
     };
   };
 }
