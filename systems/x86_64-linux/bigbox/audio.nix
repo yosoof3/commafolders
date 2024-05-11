@@ -3,6 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
     pulseaudio
+    pavucontrol
   ];
   sound.enable = true;
   security.rtkit.enable = true;
