@@ -38,6 +38,8 @@
     hyprland.url = "github:hyprwm/Hyprland";
 
     yappkgs.url = "github:yosoof3/yappkgs";
+
+    nuenv.url = "github:DeterminateSystems/nuenv";
   };
 
   outputs = inputs:
