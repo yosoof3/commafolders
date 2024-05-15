@@ -36,6 +36,8 @@
     };
 
     hyprland.url = "github:hyprwm/Hyprland";
+
+    yappkgs.url = "github:yosoof3/yappkgs";
   };
 
   outputs = inputs:
