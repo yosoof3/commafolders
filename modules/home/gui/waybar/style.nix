@@ -73,7 +73,7 @@ in
 
   #workspaces button.active {
     background-color: ${theme.colors.rosewater};
-    color: ${theme.colors.crust};
+    color: ${theme.colors.base};
   }
 
   #workspaces button:hover {
@@ -100,7 +100,7 @@ in
     border-radius: 9px;
     margin: 6px 3px;
     padding: 6px 12px;
-    background-color: ${theme.colors.base};
+    background-color: ${theme.colors.mantle};
     color: ${theme.colors.text};
     transition: 0.3s;
   }
