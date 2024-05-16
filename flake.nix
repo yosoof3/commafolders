@@ -40,6 +40,8 @@
     yappkgs.url = "github:yosoof3/yappkgs";
 
     nuenv.url = "github:DeterminateSystems/nuenv";
+
+    catppuccin.url = "github:catppuccin/nix";
   };
 
   outputs = inputs:
@@ -60,6 +62,7 @@
         nix-index-database.hmModules.nix-index
         arkenfox.hmModules.arkenfox
         hyprland.homeManagerModules.default
+        catppuccin.homeManagerModules.catppuccin
       ];
     };
 }

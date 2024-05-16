@@ -2,9 +2,7 @@
 {
   imports =
     [
-      ./gtk.nix
       ./scripts.nix
-      ./cursor.nix
     ];
 
   home.packages = with pkgs; [
@@ -28,7 +26,7 @@
         gaps_in = 5;
         gaps_out = 20;
         border_size = 2;
-        "col.active_border" = "rgb(9c42b1) rgb(fdec56) 45deg";
+        "col.active_border" = "rgb(b4befe) rgb(f5e0dc) 45deg";
         "col.inactive_border" = "rgba(595959aa)";
         layout = "dwindle";
       };
@@ -76,8 +74,7 @@
         # Variable Refresh Rate
         vrr = 1;
       };
-      exec-once = [ "waybar" ];
-      exec = import ./exec.nix { inherit pkgs lib; };
+      exec-once = import ./exec.nix { inherit pkgs lib; };
       bind = import ./binds.nix { inherit pkgs lib; };
       bindm = [
         # Move/resize windows with mainMod + LMB/RMB and dragging

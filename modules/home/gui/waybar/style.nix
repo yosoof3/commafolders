@@ -6,6 +6,7 @@ in
     border: none;
     border-radius: 0;
     min-height: 0;
+    color: ${theme.colors.rosewater};
     font-family: "${theme.font}";
     font-weight: 500;
   }
@@ -15,6 +16,7 @@ in
     transition-duration: 0.5s;
     font-size: 14px;
     background-color: ${theme.colors.base};
+    color: ${theme.colors.rosewater};
     border-top: ${theme.border-size}px solid ${theme.colors.mantle};
   }
  

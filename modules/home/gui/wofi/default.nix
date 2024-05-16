@@ -42,8 +42,8 @@ in {
       }
 
       #window {
-        background-color: rgba(0,0,0,0.7);
-        color: #${theme.colors.rosewater};
+        background-color: ${theme.colors.base};
+        color: ${theme.colors.rosewater};
         border-radius: ${theme.rounding}px;
       }
 
@@ -52,9 +52,9 @@ in {
       }
 
       #input {
-        background-color: #${theme.colors.base};
+        background-color: ${theme.colors.base};
         padding: 8px 12px;
-        border-radius: :${theme.rounding}px;
+        border-radius: ${theme.rounding}px;
       }
 
       #scroll {

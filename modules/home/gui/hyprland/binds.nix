@@ -9,7 +9,7 @@ in
 [
   # App launcher && other apps
   "${mainMod}, SUPER_L, exec, menu"
-  "${launchMod}, T, exec, kitty"
+  "${launchMod}, T, exec, foot"
   "${launchMod}, Q, exec, firefox"
   "${launchMod}, E, exec, smile"
 
@@ -33,7 +33,7 @@ in
   "${mainModC}, s, movefocus, d"
   "${mainModC}, w, movefocus, u"
 
-  # Window keybinds"
+  # Window keybinds
   "${mainMod}, F, togglefloating"
   "${mainMod}, W, killactive"
 ]

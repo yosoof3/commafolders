@@ -1,6 +1,4 @@
-{ pkgs, config, ... }:
-
-{
+{ pkgs, inputs, config, ... }: {
   home.packages = with pkgs.gnome; [
     nautilus
     file-roller
@@ -21,28 +19,20 @@
 
   gtk = {
     enable = true;
+    catppuccin = {
+      enable = true;
+      size = "standard";
+      tweaks = [ "normal" "rimless" ];
+    };
     font = {
       name = "Inter Variable";
       size = 11;
     };
-    iconTheme = {
-      name = "Adwaita";
-      package = pkgs.gnome.adwaita-icon-theme;
-    };
-    theme = {
-      name = "Catppuccin-Mocha-Compact-Rosewater-Dark";
-      package = pkgs.catppuccin-gtk.override {
-        accents = [ "rosewater" ];
-        size = "compact";
-        tweaks = [ "float" ];
-        variant = "mocha";
-      };
-    };
   };
+
   xdg.configFile = {
     "gtk-4.0/assets".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/assets";
     "gtk-4.0/gtk.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk.css";
     "gtk-4.0/gtk-dark.css".source = "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
   };
 }
-
