@@ -7,7 +7,6 @@ in
     border-radius: 0;
     min-height: 0;
     font-family: "${theme.font}";
-    color: ${theme.colors.accent_fg_color};
     font-weight: 500;
   }
 
@@ -15,9 +14,8 @@ in
     transition-property: background-color;
     transition-duration: 0.5s;
     font-size: 14px;
-    color: ${theme.colors.accent_fg_color};
-    background-color: ${theme.colors.window_bg_color};
-    border-top: ${theme.border-size}px solid ${theme.colors.headerbar_bg_color};
+    background-color: ${theme.colors.base};
+    border-top: ${theme.border-size}px solid ${theme.colors.mantle};
   }
  
   window#waybar.hidden {
@@ -30,7 +28,7 @@ in
 
   #window {
     padding: 6px 12px;
-    background-color: ${theme.colors.window_bg_color};
+    background-color: ${theme.colors.base};
     transition: 0.2s;
     margin: 6px 3px;
     border-radius: 9px;
@@ -39,14 +37,14 @@ in
   tooltip {
     border-radius: ${theme.rounding}px;
     padding: 15px;
-    background-color: ${theme.colors.window_bg_color};
-    color: ${theme.colors.accent_fg_color};
+    background-color: ${theme.colors.base};
+    color: ${theme.colors.text};
   }
 
   tooltip label {
     padding: 5px;
-    background-color: ${theme.colors.window_bg_color};
-    color: ${theme.colors.accent_fg_color};
+    background-color: ${theme.colors.base};
+    color: ${theme.colors.text};
   }
 
   /* Waybar Modules */
@@ -68,26 +66,26 @@ in
     padding: 6px 18px;
     margin: 7px 7px;
     border-radius: ${theme.rounding}px;
-    background-color: ${theme.colors.headerbar_bg_color};
-    color: ${theme.colors.headerbar_fg_color};
+    background-color: ${theme.colors.mantle};
+    color: ${theme.colors.text};
     transition: 0.2s;
   }
 
   #workspaces button.active {
-    color: ${theme.colors.accent_fg_color};
-    background-color: ${theme.colors.accent_bg_color};
+    background-color: ${theme.colors.rosewater};
+    color: ${theme.colors.crust};
   }
 
   #workspaces button:hover {
     box-shadow: inherit;
     text-shadow: inherit;
     opacity: 0.3;
-    background-color: ${theme.colors.dialog_bg_color};
+    background-color: ${theme.colors.crust};
   }
 
   #workspaces button.urgent {
-    background-color: ${theme.colors.warning_bg_color};
-    color: ${theme.colors.warning_fg_color};
+    background-color: ${theme.colors.error_bg};
+    color: ${theme.colors.rosewater};
   }
 
   #memory,
@@ -102,8 +100,8 @@ in
     border-radius: 9px;
     margin: 6px 3px;
     padding: 6px 12px;
-    background-color: ${theme.colors.headerbar_bg_color};
-    color: ${theme.colors.headerbar_fg_color};
+    background-color: ${theme.colors.base};
+    color: ${theme.colors.text};
     transition: 0.3s;
   }
 
@@ -116,7 +114,7 @@ in
   #clock:hover,
   #tray:hover,
   #backlight:hover {
-    background-color: ${theme.colors.card_bg_color};
+    background-color: ${theme.colors.crust};
   }
 
   #pulseaudio {
@@ -129,7 +127,8 @@ in
   }
 
   #clock:hover {
-    background-color: ${theme.colors.accent_bg_color}
+    color: ${theme.colors.crust};
+    background-color: ${theme.colors.rosewater};
   }
 
   #taskbar {
@@ -138,7 +137,7 @@ in
   }
 
   #taskbar button {
-    border-radius: ${theme.rounding}
+    border-radius: ${theme.rounding}px;
   }
 
   #taskbar button:nth-child(1) {
@@ -156,7 +155,8 @@ in
     font-size: 24px;
     margin: 6px 3px;
     padding: 6px 12px;
-    background-color: ${theme.colors.accent_bg_color};
+    color: ${theme.colors.crust};
+    background-color: ${theme.colors.rosewater};
     border-radius: 9px;
     margin-right: 10px;
   }
@@ -164,13 +164,13 @@ in
   #custom-logo {
     padding-right: 7px;
     font-size: 15px;
-    color: ${theme.colors.accent_fg_color};
-    background-color: ${theme.colors.headerbar_bg_color};
+    color: ${theme.colors.text};
+    background-color: ${theme.colors.mantle};
     transition: 0.3s;
   }
 
   #custom-power {
-    background-color: ${theme.colors.headerbar_bg_color};
-    color: ${theme.colors.accent_fg_color};
+    background-color: ${theme.colors.base};
+    color: ${theme.colors.text};
   }
 ''

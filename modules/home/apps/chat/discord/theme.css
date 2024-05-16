@@ -1,8 +1,8 @@
-@import "https://raw.githack.com/GeopJr/DNOME/dist/DNOME.css";
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-rosewater.theme.css");
 
 :root {
-    --font-primary: "Cantarell";
-    --font-display: "Cantarell";
+    --font-primary: "Inter";
+    --font-display: "Inter";
     --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-code: "JetBrainsMono Nerd Font Mono";
 }

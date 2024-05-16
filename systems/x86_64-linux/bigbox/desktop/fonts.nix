@@ -14,11 +14,11 @@
     fontDir.enable = true;
     fontconfig.defaultFonts = {
       sansSerif = [
+        "Inter Variable"
+        "Inter Variable Regular"
+        "Inter"
+        "Inter Regular"
         "Cantarell"
-        # "Inter Variable"
-        # "Inter Variable Regular"
-        # "Inter"
-        # "Inter Regular"
         "DejaVu Sans"
       ];
       monospace = [

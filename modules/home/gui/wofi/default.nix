@@ -38,12 +38,12 @@ in {
       * {
         font-family: "${theme.font}";
         font-weight: 500;
-        font-size: 12px;
+        font-size: 15px;
       }
 
       #window {
-        background-color: ${theme.colors.window_bg_color};
-        color: #${theme.colors.accent_fg_color};
+        background-color: rgba(0,0,0,0.7);
+        color: #${theme.colors.rosewater};
         border-radius: ${theme.rounding}px;
       }
 
@@ -52,7 +52,7 @@ in {
       }
 
       #input {
-        background-color: #${theme.colors.dialog_bg_color};
+        background-color: #${theme.colors.base};
         padding: 8px 12px;
         border-radius: :${theme.rounding}px;
       }
@@ -69,7 +69,7 @@ in {
 
       #text {
         transition: 0.3s;
-        color: #${theme.colors.accent_fg_color};
+        color: #${theme.colors.rosewater};
       }
 
       #text:selected {
@@ -82,7 +82,7 @@ in {
       }
 
       #entry:selected {
-        background-color: #ffffff;
+        background-color: ${theme.colors.rosewater};
         padding-left: 35px;
         text-align: center;
       }

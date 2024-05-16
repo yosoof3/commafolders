@@ -8,4 +8,6 @@
 
   users.mutableUsers = false;
   environment.shells = with pkgs; [ nushell ];
+
+  home-manager.backupFileExtension = "backup";
 }

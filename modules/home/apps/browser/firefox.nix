@@ -100,11 +100,11 @@
         }
         #navigator-toolbox {
             border: 0px !important;
-            background-color: #242424 !important;
+            background-color: #1e1e2e !important;
         }
         #TabsToolbar {
             margin-left: 35vw !important;
-            background-color: #242424 !important;
+            background-color: #1e1e2e !important;
         }
         #nav-bar {
             background: transparent !important;
@@ -142,12 +142,12 @@
             box-shadow: none !important;
         }
         .tab-background {
-          background-color: #242424;
+          background-color: #1e1e2e;
         }
       '';
       userContent = ''
         #root {
-          background-color: #242424 !important;
+          background-color: #1e1e2e !important;
         }
       '';
     };
