@@ -64,6 +64,8 @@
         beam-thickness = 1.5;
         underline-thickness = 2.3;
       };
+
+      colors.alpha = 0.5;
     };
   };
 }

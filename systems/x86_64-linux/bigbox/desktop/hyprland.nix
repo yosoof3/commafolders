@@ -21,7 +21,7 @@
     "WLR_NO_HARDWARE_CURSORS" = "1";
 
     # Electron apps 😭
-    "NIXOS_OZONE_WL" = "1";
+    "NIXOS_OZONE_WL" = "0";
   };
   security.polkit.enable = true;
 }
