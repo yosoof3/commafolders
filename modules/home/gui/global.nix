@@ -18,8 +18,8 @@ in
 
   # pointer / cursor theming
   home.pointerCursor = {
-    name = "Bibata-Modern-Classic";
-    package = pkgs.bibata-cursors;
+    name = "Catppuccin-Mocha-Rosewater-Cursors";
+    package = pkgs.catppuccin-cursors.mochaRosewater;
     size = 16;
     gtk.enable = true;
     x11.enable = true;
