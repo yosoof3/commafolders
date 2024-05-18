@@ -27,15 +27,15 @@
   "nix.serverPath" = "${lib.getExe pkgs.nil}";
   "nix.formatterPath" = "${lib.getExe pkgs.nixpkgs-fmt}";
   "security.workspace.trust.enabled" = false;
-  "[javascript]" = { "editor.defaultFormatter" = "biomejs.biome"; };
+  "[javascript]" = { "editor.defaultFormatter" = "esbenp.prettier-vscode"; };
   "[javascriptreact]" = {
-    "editor.defaultFormatter" = "biomejs.biome";
+    "editor.defaultFormatter" = "esbenp.prettier-vscode";
   };
-  "[jsonc]" = { "editor.defaultFormatter" = "biomejs.biome"; };
-  "[json]" = { "editor.defaultFormatter" = "biomejs.biome"; };
-  "[typescript]" = { "editor.defaultFormatter" = "biomejs.biome"; };
+  "[jsonc]" = { "editor.defaultFormatter" = "esbenp.prettier-vscode"; };
+  "[json]" = { "editor.defaultFormatter" = "esbenp.prettier-vscode"; };
+  "[typescript]" = { "editor.defaultFormatter" = "esbenp.prettier-vscode"; };
   "[typescriptreact]" = {
-    "editor.defaultFormatter" = "biomejs.biome";
+    "editor.defaultFormatter" = "esbenp.prettier-vscode";
   };
   "[html]" = { "editor.defaultFormatter" = "esbenp.prettier-vscode"; };
   "[svelte]" = { "editor.defaultFormatter" = "svelte.svelte-vscode"; };
