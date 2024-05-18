@@ -360,7 +360,7 @@
             "enabled": false
         },
         "oneko": {
-            "enabled": true
+            "enabled": false
         },
         "OpenInApp": {
             "enabled": false
