@@ -52,6 +52,7 @@ builtins.concatLists (builtins.attrValues {
     bierner.emojisense
     editorconfig.editorconfig
     esbenp.prettier-vscode
+    biomejs.biome
     github.remotehub
     pkgs.vscode-extensions.github.vscode-pull-request-github
     icrawl.discord-vscode
