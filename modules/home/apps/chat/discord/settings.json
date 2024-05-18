@@ -158,9 +158,9 @@
             "enableStreamQualityBypass": true,
             "transformStickers": true,
             "transformEmojis": true,
-            "transformCompoundSentence": false,
+            "transformCompoundSentence": true,
             "emojiSize": 48,
-            "hyperLinkText": "{{ ۤ}}",
+            "hyperLinkText": "{{NAME}}",
             "useHyperLinks": true,
             "stickerSize": 160
         },
@@ -360,7 +360,7 @@
             "enabled": false
         },
         "oneko": {
-            "enabled": false
+            "enabled": true
         },
         "OpenInApp": {
             "enabled": false
